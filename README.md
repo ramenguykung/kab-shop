@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Dependencies
 This next project requires dependencies as listed below:
 - **Next.js**<br> To install, run this command in bash or terminal
