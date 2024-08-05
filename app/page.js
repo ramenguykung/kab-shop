@@ -91,6 +91,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <SpeedInsights/>
     </main>
   );
 }
