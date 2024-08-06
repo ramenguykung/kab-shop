@@ -9,6 +9,10 @@
 # testing
 /coverage
 
+# Replit configuration files
+.replit
+replit.nix
+
 # next.js
 /.next/
 /out/
