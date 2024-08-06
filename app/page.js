@@ -28,14 +28,16 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+      <div className={styles.code}>
+        <p>Powered by</p>
+      </div>
       <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
-          height={37}
+          height={50}
           priority
         />
       </div>
