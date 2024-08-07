@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.code}>
-        <p>Powered by</p>
+        <p>This is preview branch.</p>
       </div>
       <div className={styles.center}>
         <Image
