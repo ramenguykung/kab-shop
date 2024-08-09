@@ -1,8 +1,14 @@
 # Dependencies
 This next project requires dependencies as listed below:
-- **Next.js**<br> To install, run this command in bash or terminal
-```
+**Required**
+- **Next.js**<br> To install, run this command in bash or terminal:
+```bash
 npm i next
+```
+**Optional**
+- GitHub CLI (For integrated git experience.)<br> To install, run this command in bash or terminal:
+```bash
+npm i gh
 ```
 # Getting Started
 
