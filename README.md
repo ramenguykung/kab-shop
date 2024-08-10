@@ -1,12 +1,16 @@
 # Dependencies
-This next project requires dependencies as listed below:<br>
-**Required**
+This next project requires dependencies as listed below:
+## Required
 - **Next.js**<br> To install, run this command in bash or terminal:
 ```bash
 npm i next
 ```
-**Optional**
-- GitHub CLI (For integrated git experience.)<br> To install, run this command in bash or terminal:
+- **ESlint** For JavaScript debugging. Eslint extension for Visual Studio Code also avaliable [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).<br> To install, run this command in bash or terminal:
+```bash
+npm i --save-dev eslint @typescript-eslint/parser eslint-config-next eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
+```
+## Optional
+- **GitHub CLI** (For integrated git experience.)<br> To install, run this command in bash or terminal:
 ```bash
 npm i gh
 ```

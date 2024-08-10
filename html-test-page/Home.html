@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empty Page</title>
+    <title>Header with Search Bar</title>
     <!-- เชื่อมโยงไปยังไฟล์ CSS หากมี -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/html-test-page/Home.css">
     <style>
         /* สไตล์พื้นฐานที่รวมไว้ใน HTML */
         body {
@@ -23,17 +24,14 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- เนื้อหาใส่ที่นี่ -->
-        <h1>Welcome to the Empty Page</h1>
-        <p>This is a blank page for you to start with.</p>
-    </div>
-
-    <!-- เชื่อมโยงไปยังไฟล์ JavaScript หากมี -->
-    <script src="script.js"></script>
-    <script>
-        // โค้ด JavaScript พื้นฐานที่รวมไว้ใน HTML
-        console.log('Page loaded successfully.');
-    </script>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="logo">MySite</h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>

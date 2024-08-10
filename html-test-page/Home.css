@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    flex: 1;
+}
+
+.search-bar {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-bar input[type="text"] {
+    width: 600px; /* ปรับความยาวของช่องค้นหาที่นี่ */
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+        outline: none;
+        box-sizing: border-box; /* ทำให้การเพิ่ม padding ไม่ส่งผลต่อความกว้างที่กำหนด */
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    padding: 60px 20px 20px;
+    text-align: center;
+}

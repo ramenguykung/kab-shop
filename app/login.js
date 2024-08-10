@@ -1,9 +1,12 @@
 import Link from "next/link";
+import styles from "./page.module.css";
+import Image from "next/image";
 
-export function login() {
+export default function login() {
 	return(
-		<main>
-			
-		</main>
+		<div className={styles.div}>
+			<p>This is login page.</p>
+			<Link href='/login'>Click this to Homepage</Link>
+		</div>
 	);
 }
