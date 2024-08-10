@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
@@ -29,7 +30,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.code}>
-        <p>This is preview branch.</p>
+        <Link href='/login'>Click this to Login page</Link>
       </div>
       <div className={styles.center}>
         <Image
