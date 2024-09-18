@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function login() {
 	return (
 		<div className={styles.div}>
-			<p>This is the login page.</p>
+			<p>This is login page.</p>
 			<form>
 				<label htmlFor="username">Username:</label>
-				<input type="text" id="username" name="username" />
+				<input type="text" id="username" name="username"/>
 
 				<label htmlFor="password">Password:</label>
-				<input type="password" id="password" name="password" />
+				<input type="password" id="password" name="password"/>
 
 				<button type="submit">Login</button>
 			</form>
