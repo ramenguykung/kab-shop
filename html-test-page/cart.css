@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-icon, .profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-info {
+    background-color: #a020f0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.image-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+.product-selection {
+    flex-grow: 1;
+}
+
+.product-display {
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-options {
+    display: flex;
+    gap: 10px;
+}
+
+.product-option {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+
+.product-option.selected {
+    background-color: #00cfe9;
+}
+
+.purchase-button {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.purchase-button button {
+    background-color: #ccffcc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.purchase-button button:hover {
+    background-color: #b3ffb3;
+}
