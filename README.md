@@ -5,10 +5,6 @@ This next project requires dependencies as listed below:
 ```bash
 npm i next
 ```
-- **ESlint** For JavaScript debugging. Eslint extension for Visual Studio Code also avaliable [here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).<br> To install, run this command in bash or terminal:
-```bash
-npm i --save-dev eslint @typescript-eslint/parser eslint-config-next eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
-```
 ## Optional
 - **GitHub CLI** (For integrated git experience.)<br> To install, run this command in bash or terminal:
 ```bash
