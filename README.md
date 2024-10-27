@@ -1,3 +1,5 @@
+![GitHub branch status](https://img.shields.io/github/checks-status/ramenguykung/kab-shop/main?label=check%3A%20main)
+
 # Introduction
 
 Kab Shop is a project for System Analysis and Design course in Computer Science and Infomation in King's Mongkut's University of Technology North Bangkok (KMUTNB).
