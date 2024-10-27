@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../page.module.css";
 import Image from "next/image";
+import Topbar from "../components/Topbar";
 
 export default function login() {
 	return (
@@ -15,8 +16,9 @@ export default function login() {
 
 				<button type="submit">Login</button>
 			</form>
-			<p>Are you an Admin?</p>
+			<p>Are you an Admin?
 			<Link href="/admin">Click Here</Link>
+			</p>
 			<Link href="/">Click here to go to the Homepage</Link>
 		</div>
 	);

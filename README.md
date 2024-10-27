@@ -1,16 +1,49 @@
-# Dependencies
-This next project requires dependencies as listed below:
-## Required
-- **Next.js**<br> To install, run this command in bash or terminal:
+# Introduction
+
+Kab Shop is a project for System Analysis and Design course in Computer Science and Infomation in King's Mongkut's University of Technology North Bangkok (KMUTNB).
+
+## Objectives
+
+In System Analysis and Design. It has one vital core objective.
+
+> Design the system under limited resource to have most efficientcy as possible.
+
+The fundamental core of the subject is mostly about managing workflows to be effortlessly as much as possible.
+
+As this repository only reflect the result of the course. I (Owner of the repository) think it would have benefits to publish this project to the public to be an study case for further study.
+
+## Installations
+
+### Runtimes
+
+This project *required* [Node.js](https://nodejs.org/) as JavaScript runtime. You can also use other runtime like [bun](https://bun.sh/) as optional choice.
+
+---
+
+### Cloning repository
+
+This project was hosting on [GitHub](https://github.com/ramenguykung/kab-shop). To clone the repository, run this command in your terminal:
+
 ```bash
-npm i next
+git clone https://github.com/ramenguykung/kab-shop.git
 ```
-## Optional
-- **GitHub CLI** (For integrated git experience.)<br> To install, run this command in bash or terminal:
+
+***Forking*** this project to your own repository is recommanded. Since you can submit your pull requests to this repository.
+
+---
+
+### Dependencies
+
+At this stage. You *need* to have [Node.js](https://nodejs.org/) on your system to use Node Package Manager.
+
+Assumed that you have cloned the project to your local machine, change the directory to the project and run this command in your terminal:
+
 ```bash
-npm i gh
+# Install all dependencies from package-lock.json
+npm ci
 ```
-# Getting Started
+
+## Getting Started
 
 To run the development server:
 
@@ -23,21 +56,3 @@ pnpm dev
 # or
 bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-# Resources
-
-
-# Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
