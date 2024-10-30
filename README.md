@@ -5,9 +5,9 @@
 
 </div>
 
-# Introduction
+# kab-shop
 
-Kab Shop is a project for System Analysis and Design course in Computer Science and Infomation in King's Mongkut's University of Technology North Bangkok (KMUTNB).
+kab-shop is a project for System Analysis and Design course in Computer Science and Infomation deoartment in King's Mongkut's University of Technology North Bangkok (KMUTNB).
 
 ## Objectives
 
